@@ -55,7 +55,7 @@ nur den Schlüsselwert von Produkt und die eigenen Attribute darstellt
 \section{Anfragen in der Relationenalgebra}
 \subsection{(a)}
 Geben Sie Namen und Raum aller Professoren vom Rang ‚C4‘ aus\\
-$\Pi_{Name} (\Pi_{Raum}(\sigma_{Rang='C4'} Professoren))$ \\
+$\Pi_{Name,Raum}(\sigma_{Rang='C4'} Professoren)$ \\
 
 \subsection{(b)}
 Geben Sie die Namen aller Hörer der Vorlesung ‚Logik‘ aus
@@ -65,6 +65,8 @@ $\Pi_{Name}((Student) \bowtie horen \bowtie (\sigma_{Titel='Logik'}Vorlesung))$ 
 Erstellen Sie eine Liste die die Name n aller Assistenten und jeweils den
 Namen des zugehörigen Vorgesetzten(‘Boss‘) enthält. Formulieren Sie diese Anfrage einmal mit und einmal 
 ohne Join-Operator\\
+ohne Join $(\Pi_{Name, Boss} Assistenten)$ (Kann auch trival sein, da beide Spalten parallel sind und jeder Assisten ein Boss benötigt)\\
+mit Join $(\Pi_{Name} Assistenten) \bowtie (\Pi_{Boss} Assistenten)$
 
 
 \subsection{(d)}
