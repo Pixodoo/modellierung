@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{tikz}
+\usepackage[normalem]{ulem} 
+
+\title{Übungsblatt 2}
+\author{Robin Jahn 3598632 st178507@stud.uni-
+stuttgart.de \\
+Alex Denk ... }
+
+\begin{document}
+
+\section{Umsetzung eines ER-Diagramms ins Relationenmodell}
+
+\subsection{(a)}
+\textbf{AUFENTHALT}(\dashulin{von}, bis, von) \\
+\textbf{GAST}(\underline{KundenNr}, Name, Adresse(Strasse, Ort)) \\ 
+\textbf{RECHNUNG}(\underline{ReNr}, Datum, Summe, zu)\\
+\textbf{ZIMMER}(\underline{Nummer}, Betten, in)\\
+\textbf{KATEGORIE}(\underline{Bezeichnung}, {Ausstattung}, hat)\\
+\textbf{RESTAURANT}(\underline{ID}, RestaurantName, Plätze)\\
+\textbf{GETRÄNK}(\underline{ProdNr}, Preis, ProduktName, Größe)\\
+\textbf{SPEISE}(\underline{ProdNr}, Preis, ProduktName, Gewicht)\\
+\textbf{PRODUKT}(\underline{ProdNr}, Preis, ProduktName)\\ \\
+\textbf{RESTORAUNTBESUCH}(\dashulin{von}, \underline{ID}, \underline{ProdNr}, Datum, Tisch)\\
+\textbf{MINIBARKONSUM}(\dashulin{von}, \underline{ProdNr}, Anzahl)\\    
+    
+
+\subsection{(b)}
+
+
+
+\end{document}
