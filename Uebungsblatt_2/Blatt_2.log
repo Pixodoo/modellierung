@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.11)  11 MAY 2022 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.11)  11 MAY 2022 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,8 +435,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
-
+Overfull \hbox (32.97015pt too wide) in paragraph at lines 86--89
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Studenten \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Studenten \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 Studenten\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 .[]/ hoeren .[]/ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []Vorlesung\OT1/cmr/m/n/10 ))))$ 
  []
 
 [2] (Blatt_2.aux) ) 
@@ -449,7 +449,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,5n,89p,466b,110s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on Blatt_2.pdf (2 pages, 112534 bytes).
+Output written on Blatt_2.pdf (2 pages, 113240 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
