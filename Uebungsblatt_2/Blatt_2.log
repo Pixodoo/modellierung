@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.10)  11 MAY 2022 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.10)  11 MAY 2022 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,19 +314,11 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
-/home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.tex:18: Undefined control sequence.
-l.18 \textbf{AUFENTHALT}(\dashulin
-                                  {von}, bis, von) \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 19.
+
 /home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.tex:27: Undefined control sequence.
 l.27 \textbf{RESTORAUNTBESUCH}(\dashulin
                                         {von}, \underline{ID}, \underline{Pr...
@@ -355,22 +347,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--29
 
  []
 
+
+Overfull \hbox (3.98505pt too wide) in paragraph at lines 32--42
+\OT1/cmr/bx/n/10 AUFENTHALT\OT1/cmr/m/n/10 (von) -> \OT1/cmr/bx/n/10 GAST\OT1/cmr/m/n/10 (KundenNr) \OT1/cmr/bx/n/10 RECH-NUNG\OT1/cmr/m/n/10 (zu) -> \OT1/cmr/bx/n/10 AUFEN-
+ []
+
+
+Overfull \hbox (57.62415pt too wide) in paragraph at lines 32--42
+\OT1/cmr/m/n/10 -> \OT1/cmr/bx/n/10 ZIM-MER\OT1/cmr/m/n/10 (Nummer) \OT1/cmr/bx/n/10 AUSSTAT-TUNG\OT1/cmr/m/n/10 (Bezeichnung) -> \OT1/cmr/bx/n/10 KAT-E-GORIE\OT1/cmr/m/n/10 (Bezeichnung)
+ []
+
+
+Overfull \hbox (29.01227pt too wide) in paragraph at lines 32--42
+\OT1/cmr/bx/n/10 RESTORAUNTBE-SUCH\OT1/cmr/m/n/10 (von) -> \OT1/cmr/bx/n/10 AUFEN-THALT\OT1/cmr/m/n/10 (von) \OT1/cmr/bx/n/10 RESTORAUNTBE-
+ []
+
+
+Overfull \hbox (10.85997pt too wide) in paragraph at lines 32--42
+\OT1/cmr/m/n/10 > \OT1/cmr/bx/n/10 PRO-DUKT\OT1/cmr/m/n/10 (ProdNr) \OT1/cmr/bx/n/10 MINI-BARKON-SUM\OT1/cmr/m/n/10 (von) -> \OT1/cmr/bx/n/10 AUFEN-THALT\OT1/cmr/m/n/10 (von)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Overfull \hbox (48.87502pt too wide) in paragraph at lines 48--51
+\OT1/cmr/bx/n/10 GETR[]ANK\OT1/cmr/m/n/10 (ProdNr) -> PRO-DUKT(ProdNr) \OT1/cmr/bx/n/10 SPEISE\OT1/cmr/m/n/10 (ProdNr) -> PRO-DUKT(ProdNr) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+
+ []
+
+
+/home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.tex:57: LaTeX Error: Command \quotesinglbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...en und Raum aller Professoren vom Rang ‚
+                                                  C4‘ aus\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+/home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.tex:61: LaTeX Error: Command \quotesinglbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...e die Namen aller Hörer der Vorlesung ‚
+                                                  Logik‘ aus
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
+[2] (/home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.aux) ) 
 Here is how much of TeX's memory you used:
- 11966 strings out of 481239
- 244735 string characters out of 5920377
- 455076 words of memory out of 5000000
- 27020 multiletter control sequences out of 15000+600000
+ 11969 strings out of 481239
+ 244777 string characters out of 5920377
+ 457081 words of memory out of 5000000
+ 27023 multiletter control sequences out of 15000+600000
  533962 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,60p,477b,106s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on /home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.pdf (1 page, 42520 bytes).
+ 60i,5n,60p,477b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+Output written on /home/robin/Dokumente/Modelierung/modellierung/Uebungsblatt_2/Blatt_2.pdf (2 pages, 99369 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
