@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.11)  12 MAY 2022 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.11)  12 MAY 2022 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,79 +327,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--29
  []
 
 
-Overfull \hbox (3.98505pt too wide) in paragraph at lines 32--42
-\OT1/cmr/bx/n/10 AUFENTHALT\OT1/cmr/m/n/10 (von) -> \OT1/cmr/bx/n/10 GAST\OT1/cmr/m/n/10 (KundenNr) \OT1/cmr/bx/n/10 RECH-NUNG\OT1/cmr/m/n/10 (zu) -> \OT1/cmr/bx/n/10 AUFEN-
- []
-
-
-Overfull \hbox (57.62415pt too wide) in paragraph at lines 32--42
-\OT1/cmr/m/n/10 -> \OT1/cmr/bx/n/10 ZIM-MER\OT1/cmr/m/n/10 (Nummer) \OT1/cmr/bx/n/10 AUSSTAT-TUNG\OT1/cmr/m/n/10 (Bezeichnung) -> \OT1/cmr/bx/n/10 KAT-E-GORIE\OT1/cmr/m/n/10 (Bezeichnung)
- []
-
-
-Overfull \hbox (29.01227pt too wide) in paragraph at lines 32--42
-\OT1/cmr/bx/n/10 RESTORAUNTBE-SUCH\OT1/cmr/m/n/10 (von) -> \OT1/cmr/bx/n/10 AUFEN-THALT\OT1/cmr/m/n/10 (von) \OT1/cmr/bx/n/10 RESTORAUNTBE-
- []
-
-
-Overfull \hbox (10.85997pt too wide) in paragraph at lines 32--42
-\OT1/cmr/m/n/10 > \OT1/cmr/bx/n/10 PRO-DUKT\OT1/cmr/m/n/10 (ProdNr) \OT1/cmr/bx/n/10 MINI-BARKON-SUM\OT1/cmr/m/n/10 (von) -> \OT1/cmr/bx/n/10 AUFEN-THALT\OT1/cmr/m/n/10 (von)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+Underfull \hbox (badness 10000) in paragraph at lines 32--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
-
- []
-
-
-Overfull \hbox (48.87502pt too wide) in paragraph at lines 48--51
-\OT1/cmr/bx/n/10 GETR[]ANK\OT1/cmr/m/n/10 (ProdNr) -> PRO-DUKT(ProdNr) \OT1/cmr/bx/n/10 SPEISE\OT1/cmr/m/n/10 (ProdNr) -> PRO-DUKT(ProdNr) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
  []
 
 [1
 
 {C:/Users/Robin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--70
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--70
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
@@ -407,13 +412,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
 Here is how much of TeX's memory you used:
  12443 strings out of 478584
  263018 string characters out of 2844401
- 521805 words of memory out of 3000000
+ 522805 words of memory out of 3000000
  30416 multiletter control sequences out of 15000+600000
  470883 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,5n,89p,466b,110s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on Blatt_2.pdf (3 pages, 115073 bytes).
+Output written on Blatt_2.pdf (3 pages, 118038 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
