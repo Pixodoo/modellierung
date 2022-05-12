@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.11)  11 MAY 2022 23:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.11)  12 MAY 2022 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,25 +317,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 19.
 
-c:/Users/Robin/Desktop/modellierung/Uebungsblatt_2/Blatt_2.tex:27: Undefined control sequence.
-l.27 \textbf{RESTORAUNTBESUCH}(\dashulin
-                                        {von}, \underline{ID}, \underline{Pr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/Robin/Desktop/modellierung/Uebungsblatt_2/Blatt_2.tex:28: Undefined control sequence.
-l.28 \textbf{MINIBARKONSUM}(\dashulin
-                                     {von}, \underline{ProdNr}, Anzahl)\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 18--29
 
  []
@@ -386,19 +367,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
  []
 
 
-c:/Users/Robin/Desktop/modellierung/Uebungsblatt_2/Blatt_2.tex:57: LaTeX Error: Command \quotesinglbase unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ...en und Raum aller Professoren vom Rang ‚
-                                                  C4‘ aus\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
@@ -406,52 +374,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 [1
 
 {C:/Users/Robin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-c:/Users/Robin/Desktop/modellierung/Uebungsblatt_2/Blatt_2.tex:61: LaTeX Error: Command \quotesinglbase unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61 ...e die Namen aller Hörer der Vorlesung ‚
-                                                  Logik‘ aus
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
  []
 
 
-Overfull \hbox (32.97015pt too wide) in paragraph at lines 86--89
-\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Studenten \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Studenten \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 Studenten\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 .[]/ hoeren .[]/ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []Vorlesung\OT1/cmr/m/n/10 ))))$ 
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
  []
 
-[2] (Blatt_2.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+[3] (Blatt_2.aux) ) 
 Here is how much of TeX's memory you used:
- 12445 strings out of 478584
- 263052 string characters out of 2844401
+ 12443 strings out of 478584
+ 263018 string characters out of 2844401
  521805 words of memory out of 3000000
- 30418 multiletter control sequences out of 15000+600000
+ 30416 multiletter control sequences out of 15000+600000
  470883 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,5n,89p,466b,110s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on Blatt_2.pdf (2 pages, 113240 bytes).
+Output written on Blatt_2.pdf (3 pages, 115073 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

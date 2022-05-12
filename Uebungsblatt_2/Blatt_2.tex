@@ -24,8 +24,8 @@ Alexander Denk ... }
 \textbf{GETRÄNK}(\underline{ProdNr}, Preis, ProduktName, Größe)\\
 \textbf{SPEISE}(\underline{ProdNr}, Preis, ProduktName, Gewicht)\\
 \textbf{PRODUKT}(\underline{ProdNr}, Preis, ProduktName)\\ \\
-\textbf{RESTORAUNTBESUCH}(\dashulin{von}, \underline{ID}, \underline{ProdNr}, Datum, Tisch)\\
-\textbf{MINIBARKONSUM}(\dashulin{von}, \underline{ProdNr}, Anzahl)\\    
+\textbf{RESTORAUNTBESUCH}(\dashuline{von}, \underline{ID}, \underline{ProdNr}, Datum, Tisch)\\
+\textbf{MINIBARKONSUM}(\dashuline{von}, \underline{ProdNr}, Anzahl)\\    
     
 
 \subsection{(b)}
@@ -54,18 +54,20 @@ nur den Schlüsselwert von Produkt und die eigenen Attribute darstellt
 
 \section{Anfragen in der Relationenalgebra}
 \subsection{(a)}
-Geben Sie Namen und Raum aller Professoren vom Rang ‚C4‘ aus\\
-$\Pi_{Name,Raum}(\sigma_{Rang='C4'} Professoren)$ \\
+Geben Sie Namen und Raum aller Professoren vom Rang 'C4' aus\\
+$(\Pi_{Name,Raum}(\sigma_{Rang='C4'} Professoren))$ \\
 
 \subsection{(b)}
-Geben Sie die Namen aller Hörer der Vorlesung ‚Logik‘ aus
-$\Pi_{Name}((Student) \bowtie horen \bowtie (\sigma_{Titel='Logik'}Vorlesung))$ \\
+Geben Sie die Namen aller Hörer der Vorlesung 'Logik' aus. \\
+$(\Pi_{Name}((Student) \bowtie horen \bowtie (\sigma_{Titel='Logik'}Vorlesung)))$ \\
 
 \subsection{(c)}
 Erstellen Sie eine Liste die die Name n aller Assistenten und jeweils den
 Namen des zugehörigen Vorgesetzten(‘Boss‘) enthält. Formulieren Sie diese Anfrage einmal mit und einmal 
 ohne Join-Operator\\
-ohne Join $(\Pi_{Name, Boss} Assistenten)$ (Kann auch trival sein, da beide Spalten parallel sind und jeder Assisten ein Boss benötigt)\\
+ohne Join $(\Pi_{Name, Boss} Assistenten)$\\
+(Kann auch trival sein, da beide Spalten parallel sind und jeder Assisten ein Boss benötigt)\\ \\
+
 mit Join $(\Pi_{Name} Assistenten) \bowtie (\Pi_{Boss} Assistenten)$
 
 
@@ -83,8 +85,14 @@ Welches ist die durchschnittliche Semesteranzahl aller Studenten?\\
 $(\textbf{Sum}(\Pi_{Semester} Studenten)) \div  (\textbf{Count}(Studenten))$\\
 
 \subsection{(g)}
-Wieviele Hörer gibt es pro Vorlesung? Erstellen Sie eine Liste pro Vorle-
-sung (VorlNr).\\
-$ (Studenten - (Studenten - ((Studenten) \bowtie hoeren \bowtie (\sigma_{gelesenVon='Kant'} Vorlesung))))$
+Wieviele Hörer gibt es pro Vorlesung? Erstellen Sie eine Liste pro Vorlesung (VorlNr).\\
+$(\Pi_{VorlNr} Vorlesung) \bowtie (\textbf{Count}(Student) \bowtie horen \bowtie (Vorlesung)) $
+
+
+\subsection{(h)}
+Welche Studierenden hören alle von Professor Kant angebotenen Lehrveranstaltungen. 
+Nutzen Sie den Divisionsoperator zur Formulierung des entsprechenden Algebraausdrucks. \\
+
+$ (Studenten \div ((Studenten) \bowtie hoeren \bowtie (\sigma_{gelesenVon='Kant'} Vorlesung)))$
 
 \end{document}
