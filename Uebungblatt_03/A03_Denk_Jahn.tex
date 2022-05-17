@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{tikz}
+\usepackage[normalem]{ulem} 
+
+\begin{document}
+
+\section{SQL-Anfragen}
+\subsection{(a)}
+SELECT Vorname, Name, Wohnort\\
+FROM Angestellter\\
+WHERE Wohnort = 'Leipzig'\\
+ORDER BY Geburtstag\\
+
+\subsection{(b)}
+SELECT Wohnort, Projektort, Ort
+FROM Angestellter, Projekt, Abteilung\\
+WHERE Projekt.Projektort = Angestellter.Wohnort
+AND Abteilung.AbteilungsNr = Angestellter.AbteilungsNr \\
+ 
+ 
+\subsection{(c)}
+SELECT DISTINCT Beruf, COUNT$(*)_{>3}$ AS Anzahl\\
+FROM Angestellter\\
+GROUP BY Beruf\\
+
+
+\subsection{(d)}
+SELECT DISTICT Beruf, \\
+FROM Angestellter \\
+WHERE 
+
+
+
+
+\section{SQL-Anweisungen}
+\subsection{(a)}
+INSERT INFO Angestellter 
+SET PersonalNr=101, Name='Kraft', Vorname='Simone', Beruf='Physikerin', Gehalt='65000', AbteilungsNr=2,
+Manager=NULL, Geburtstag=NULL, Wohnort=NULL
+
+\subsection{(b)}
+DELETE FROM Abteilung\\
+WHERE Ort='Berlin'
+
+
+    
+\end{document}
