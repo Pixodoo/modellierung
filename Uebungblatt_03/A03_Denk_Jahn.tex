@@ -39,7 +39,8 @@ WHERE
 \subsection{(a)}
 INSERT INFO Angestellter 
 SET PersonalNr=101, Name='Kraft', Vorname='Simone', Beruf='Physikerin', Gehalt='65000', AbteilungsNr=2,
-Manager=NULL, Geburtstag=NULL, Wohnort=NULL
+Manager=NULL,\\ 
+Geburtstag=NULL, Wohnort=NULL
 
 \subsection{(b)}
 DELETE FROM Abteilung\\
@@ -51,6 +52,12 @@ SET AbteilungsNr=5\\
 WHERE AbteilungsNr IS NULL\\
 
 \subsection{(d)}
+CREATE VIEW berlin \\
+(\\
+    "SELECT ProjektNr, Projektname, Projektort
+    FROM (Angestellter NATURAL JOIN Projektmitarbeit) NATURAL JOIN Projekt,\\
+    WHERE Projektort='Berlin' AND pseudo(ProjektNr verbunden mit COUNT(PersonalNr)>=3)
+)
 
 
 
@@ -58,6 +65,36 @@ WHERE AbteilungsNr IS NULL\\
 TRUNCATE Abteilung
 
 \subsection{(f)}
+Tabelle für Angestellter: \\ \\
+CREATE TABLE Angestellter\\
+(\\
+\begin{tabular} {l l l}
+    PersonalNr & INTEGER & NOT NULL , \\
+    Name & VARCHAR(15) & NOT NULL ,\\
+    Vorname & VARCHAR(15) & NOT NULL ,\\
+    Beruf & VARCHAR(15) & NOT NULL ,\\
+    Gehalt & INTEGER ,\\
+    AbteilungsNr & INTEGER ,\\
+    Geburtag & DATE ,\\
+    Wohnort & VARCHAR ,\\
+    PRIMARY KEY (PersonalNR) ,\\
+    FOREIGN KEY (AbteilungsNr) & REFERENCES Abteilung (AbteilungsNr)\\
+\end{tabular}
+);\\ \\
+Tabelle für Abteilung: \\ \\
+CREATE TABLE Abteilung \\
+(\\
+\begin{tabular}{l l l}
+    AbteilungsNr & INTEGER NOT NULL , \\
+    Name & VARCHAR ,
+    Ort & VARCHAR \\
+\end{tabular}
+\\
+
+        
+
+)
+
 
     
 \end{document}
