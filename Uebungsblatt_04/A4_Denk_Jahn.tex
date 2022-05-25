@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{tikz}
+\usepackage[normalem]{ulem} 
+
+\begin{document}
+\section{SQL und Relationenalgebra}
+\subsection{(a)}
+$\Pi_{k \underline{ }name}(\sigma_{(k \underline{ }alter)> 40} mitarbeiter)$
+
+\subsection{(b)}
+$\Pi_{b\underline{ }ID}(\sigma_{(d\underline{ }kredithoehe)>20000} (darlehen \bowtie (\sigma_{a\underline{ }ort='München'}(mitarbeiter \bowtie adresse \bowtie bankkonto)))) $
+
+
+\subsection{(c)}
+SELECT k_name, k_alter, a_plz \\
+FROM kunde NATURLA JOIN adresse \\
+ORDER BY k_alter DESC \\
+
+\subsection{(d)}
+
+
+\end{document}
