@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.10)  25 MAY 2022 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.10)  26 MAY 2022 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,22 +367,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
+/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 SELECT m_
+              name, anzahl_an_bankkonten \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.tex:26: Missing $ inserted.
+<inserted text> 
+                $
+l.26 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.tex:27: Missing $ inserted.
+<inserted text> 
+                $
+l.27 (SELECT COUNT(*)AS anzahl_
+                               an_bankkonten\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32  SELECT DISTINCT k_
+                        name, COUNT(.....) AS kredit_anzahl\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.tex:37: Missing $ inserted.
+<inserted text> 
+                $
+l.37 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (31.14964pt too wide) in paragraph at lines 32--37
+\OML/cmm/m/it/10 WHERECOUNT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]unde \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[]d\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 > \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 AND:::\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]redithoehe \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 SUMd[]redithohe\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^D
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.aux) ) 
 Here is how much of TeX's memory you used:
  11962 strings out of 481239
  244793 string characters out of 5920377
- 454027 words of memory out of 5000000
+ 456027 words of memory out of 5000000
  27017 multiletter control sequences out of 15000+600000
  533654 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,60p,487b,106s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on /home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.pdf (1 page, 64985 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+Output written on /home/robin/Schreibtisch/modellierung/modellierung/Uebungsblatt_04/A4_Denk_Jahn.pdf (1 page, 79422 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,6 +20,22 @@ FROM kunde NATURLA JOIN adresse \\
 ORDER BY k_alter DESC \\
 
 \subsection{(d)}
+SELECT m_name, anzahl_an_bankkonten \\
+FROM .... \\
+WHERE m_alter\geq 30 AND   \\\
+
+(SELECT COUNT(*)AS anzahl_an_bankkonten\\
+FROM mitarbiter NATRUAL JOIN bankkonto\\
+GROUP BY m_id\\)
+
+ \subsection{(e)}
+ SELECT DISTINCT k_name, COUNT(.....) AS kredit_anzahl\\
+ FROM kunde NATRUAL JOIN darlehen\\
+ WHERE COUNT(d_kunde = k_id)>1 AND ...
+ %Durchschnittliche Kredithöhe 
+ (d_Kredithoehe \geq (SUM d_Kredithohe) \div (COUNT d_Kredithohe))
+
+ \subsection{(f)}
 
 
 \end{document}
